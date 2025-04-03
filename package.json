@@ -1,0 +1,41 @@
+{
+  "name": "hotdate-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.698.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "getstream": "^8.4.1",
+    "joi": "^17.10.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.4",
+    "stream-chat": "^8.14.4",
+    "stripe": "^12.13.0",
+    "url": "^0.11.3",
+    "uuid": "^11.0.3",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
